@@ -1,0 +1,35 @@
+<div style="border: solid rgb(61, 7, 99) 20px; border-radius: 50px;" class="w-75 p-3 ms-5 d-flex flex-row justify-content-between  mt-5 rounded text-center" style="  box-shadow: 0 1px 4px  #6159e6;">
+  <!-- <h1 class="">Dashboard</h1> -->
+  <div class="row">
+
+
+<div class="d-flex flex-row d-flex justify-content-start">
+  <div style="margin-left: 80px;" class=" fw-bold" #id>
+   <span class="me-2 ">ID:</span>  {{ stdData.id }}
+  </div>
+
+  <div style="margin-left: 110px;" class="fw-bold"  #name>
+    <span class="me-2">Name: </span> {{ stdData.name }}
+  </div>
+</div>
+
+
+<div class="d-flex flex-row d-flex jjustify-content-start">
+  <div style="margin-left: 80px;"  class="fw-bold"  #age>
+    <span class="me-2"> Age:</span> {{ stdData.age }}
+  </div>
+
+  <div  style="margin-left: 85px;" class="fw-bold mb-2" #email >
+    <span class="me-2"> Email: </span> <a routerLink="/students/{{ stdData.id }}" routerLinkActive="router-link-active">{{ stdData.email }}</a>
+  </div>
+</div>
+
+</div>
+  <input type="button" value="Delete" (click)="deleteItem(id)" class="mt-2 btn text-light fw-bold" style="background-color:
+  #f96879; height:40px;">
+  <!-- <input type="button" value="Update" (click)="RedirectTo()"> -->
+   <a routerLink="/update" routerLinkActive="router-link-active" class="btn text-light fw-bold" style="background-color:#6159e6; margin-top:9px; margin-left:20px;  height:40px; width:100px">Update</a>
+
+</div>
+
+

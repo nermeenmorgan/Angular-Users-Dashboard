@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nermeen Fares ",
+      "age": 23,
+      "email": "nermeen@gmail.com"
+    },
+    {
+      "name": "sara",
+      "age": 25,
+      "id": 3,
+      "email": "sara.morgan@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Neveen",
+      "age": 23,
+      "email": "neven@gmail.com"
+    }
+  ]
+}

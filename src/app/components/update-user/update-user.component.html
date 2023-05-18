@@ -1,0 +1,26 @@
+<div class="text-center d-flex" style="margin-top: 40px; margin-left:270px;">
+<img src="assets\images\upd-removebg-preview.png" class="me-2 mb-1" height="50" width="50">
+<h3 class="fw-bold text-center" style=" color: #8f00ff">Refresh Student Information</h3>
+</div>
+<form (ngSubmit)="onSubmit()" style="margin-top: 50px; margin-left:120px;">
+  <div class="form-group mt-5" style="width: 700px;">
+    <label for="id" class="fw-bold fs-4 mb-2">Select ID:</label>
+    <select class="form-control" id="id" [(ngModel)]="selectedId" name="id">
+      <option *ngFor="let user of users" [value]="user.id">{{ user.id }}</option>
+    </select>
+  </div>
+  <div class="form-group mt-4" style="width: 700px;">
+    <label for="name" class="fw-bold fs-4 mb-2">Name:</label>
+    <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name">
+  </div>
+  <div class="form-group mt-4" style="width: 700px;">
+    <label for="age" class="fw-bold fs-4 mb-2">Age:</label>
+    <input type="number" class="form-control" id="age" [(ngModel)]="age" name="age">
+  </div>
+  <div class="form-group mt-4" style="width: 700px;">
+    <label for="email" class="fw-bold fs-4 mb-2">Email:</label>
+    <input type="email"  class="form-control" id="email" [(ngModel)]="email" name="email" autocomplete="neveen@gmail.com" >
+  </div>
+  <button type="submit" class="btn" style="background-color:
+  #8f00ff; border:2px solid #e0e9ff; border-radius:10px; width:100px; margin-top: 30px; margin-left:600px;" class="p-2 fs-4 text-light">Update</button>
+</form>

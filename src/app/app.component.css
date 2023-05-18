@@ -1,0 +1,20 @@
+/* {
+  background: linear-gradient(#2AC7EA,white);
+}
+ */
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  /* Add additional styling as needed */
+}
+
+.main-content {
+  flex-grow: 1;
+
+  /* Add additional styling as needed */
+}

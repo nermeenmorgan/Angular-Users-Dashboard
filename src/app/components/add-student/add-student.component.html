@@ -1,0 +1,118 @@
+<!-- <form (ngSubmit)="onSubmit()" style="margin-top: 100px; margin-left:120px;">
+  <div class="form-group mt-5" style="width: 700px;">
+    <label for="id" class="fw-bold fs-4 mb-2">Select ID:</label>
+    <select class="form-control" id="id" [(ngModel)]="selectedId" name="id">
+      <option *ngFor="let user of users" [value]="user.id">{{ user.id }}</option>
+    </select>
+  </div>
+  <div class="form-group mt-5" style="width: 700px;">
+    <label for="name" class="fw-bold fs-4 mb-2">Name:</label>
+    <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name">
+  </div>
+  <div class="form-group mt-5" style="width: 700px;">
+    <label for="age" class="fw-bold fs-4 mb-2">Age:</label>
+    <input type="number" class="form-control" id="age" [(ngModel)]="age" name="age">
+  </div>
+  <div class="form-group mt-5" style="width: 700px;">
+    <label for="email" class="fw-bold fs-4 mb-2">Email:</label>
+    <input type="email"  class="form-control" id="email" [(ngModel)]="email" name="email">
+  </div>
+  <button type="submit" class="btn" style="background-color:
+  #6159e6; border:2px solid #e0e9ff; border-radius:10px; width:100px; margin-top: 50px; margin-left:600px;" class="p-2 fs-4 text-light">Update</button>
+</form>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- commenttttttttttttttttttttttttttttttttttttttttttttttt -->
+<div class="container ">
+<form  [formGroup]=myValidation  style="margin-top: 100px; margin-left:120px;">
+
+  <!-- <div class=" m-2">
+  <label  for="id">ID:</label>
+  <input formControlName="id" id="id" type="text" name="id">
+  </div>
+  <span *ngIf="getIdValid then T; else  F"></span>
+
+
+  <ng-template #T>
+    <div  class="alret alert-success" *ngIf="id">
+  Valid Id
+  </div>
+  </ng-template>
+
+  <ng-template #F>
+    <div #T class="alret alert-danger">
+      Invalid Id
+      </div>
+  </ng-template> -->
+
+  <div class="form-group mt-5" style="width: 700px;">
+  <label class="fw-bold fs-4 mb-2" for="name">Name:</label>
+  <input class="col-9" #name formControlName="name" id="name" type="text" name="name" class="form-control">
+  </div>
+  <!-- <span *ngIf="getNameValid then tBlock; else fBlock"></span> -->
+  <!-- <ng-template #tBlock>
+    <div class="alret alert-success" *ngIf="name">
+  Valid Id
+  </div>
+  </ng-template>
+
+  <ng-template #fBlock>
+    <div  class="alret alert-danger">
+      Invalid Id
+      </div>
+  </ng-template> -->
+
+  <div class="form-group mt-5" style="width: 700px;">
+  <label class="fw-bold fs-4 mb-2" for="age">Age:</label>
+  <input #age formControlName="age" id="age" type="text" name="" class="form-control">
+  </div>
+  <!-- <span *ngIf="getAgeValid then tB; else fB"></span> -->
+  <!-- <ng-template #tB >
+    <div  class="alret alert-success" *ngIf="age">
+  Valid Id
+  </div>
+  </ng-template> -->
+
+  <!-- <ng-template #fB>
+    <div #T class="alret alert-danger">
+      Invalid Id
+      </div>
+  </ng-template> -->
+
+  <div class="form-group mt-5" style="width: 700px;">
+  <label class="fw-bold fs-4 mb-2" for="em">Email</label>
+  <input #email formControlName="email" id="em" type="email" name="email" class="form-control">
+  </div>
+  <!-- <span *ngIf="getEmailValid then TrueB; else  FalseB"></span> -->
+  <!-- <ng-template  #TrueB>
+    <div  class="alret alert-success w-50" *ngIf="email">
+  Valid Email
+  </div>
+  </ng-template> -->
+
+  <!-- <ng-template #FalseB>
+    <div #T class="alret alert-danger ">
+      Invalid Email
+      </div>
+  </ng-template> -->
+
+  <input class="btn" style="background-color:
+  #6159e6; border:2px solid #e0e9ff; border-radius:10px; width:150px; margin-top: 50px; margin-left:600px;" class="p-2 fs-4 text-light" type="button"  (click)="addStd(name.value,email.value, age.value)" Value="Add Student">
+
+  </form>
+</div>
