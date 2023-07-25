@@ -18,8 +18,8 @@ import { SuccessModalComponent } from './components/success-modal/success-modal.
 import { UpdateUserComponent } from './components/update-user/update-user.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
-// import { ScrollingModule } from '@angular/cdk/scrolling';
 import { MatIconModule } from '@angular/material/icon';
+import { ErrorModalComponent } from './components/error-modal/error-modal.component';
 
 
 
@@ -37,6 +37,7 @@ import { MatIconModule } from '@angular/material/icon';
     StudentPageComponent,
      SuccessModalComponent,
      UpdateUserComponent,
+     ErrorModalComponent,
   ],
   imports: [
     BrowserModule,

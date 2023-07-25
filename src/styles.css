@@ -1,1 +1,16 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+/* overflow:hidden; */
+ /* border-style: solid;
+ */
+
+background-image: linear-gradient(to bottom,rgba(238,243,255,255),#dfe4fe,#d5d9fd,#ced1fc,#caccfc,#c8cafb,#c7cafc);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 

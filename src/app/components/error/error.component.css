@@ -1,0 +1,13 @@
+.full-height {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .full-height {
+    height: 100vh; /* Set the container to take full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide any overflowing content */
+  }

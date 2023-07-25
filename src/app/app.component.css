@@ -4,17 +4,13 @@
  */
 .container {
   display: flex;
-  height: 100%;
-  width: 100%;
+margin:0;
 }
-
+.full-height {
+  display: flex;
+  flex-direction: column;
+}
 .sidebar {
   width: 20%;
-  /* Add additional styling as needed */
-}
-
-.main-content {
-  flex-grow: 1;
-
   /* Add additional styling as needed */
 }

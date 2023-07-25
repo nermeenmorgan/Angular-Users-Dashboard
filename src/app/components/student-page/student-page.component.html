@@ -1,20 +1,20 @@
-<div class="ms-5 mt-2 " *ngIf="pageElem; else falseB">
-  <div class="p-5  w-75 " style="margin-left:110px; margin-top:60px; border-radius:50px; background-color: rgb(191, 157, 223);">
+<div class="ms-5 mt-2 " style="height: 100vh; overflow:hidden;" *ngIf="pageElem; else falseB">
+  <div class="p-5  w-75 " style="margin-left:110px; margin-top:60px; border-radius:50px; background-color:#e1e6fd ;  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
     <div class="text-center">
     <img  class="text-center" src="assets\images\std-removebg-preview.png">
   </div>
-  <h3 class="mt-3 text-center fw-bold">
-    {{pageElem.name}}
-  </h3>
-  <div class="p-3 mt-3 w-75" style="border-radius:20px; margin-left:70px; background-color: rgb(212, 190, 232);">
-  <h4 class="fw-bold mt-4">
-    <span style="color:rgb(124, 12, 228)" class="me-2 ">ID:</span> {{pageElem.id}}
+  <div class="p-3 mt-3 w-75" style="border-radius:20px; margin-left:70px; background-color: #eef3ff ; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+    <h3  class="mt-3 text-center fw-bold" style="font-family:boldfont; background-color:white; border:1px solid #817beb; border-radius:10px">
+       {{pageElem.name}}
+    </h3>
+  <h4 style="font-family: regularfont;"  class="fw-bold mt-4">
+    <span style="color:#8c87ee; font-family:extraboldfont;" class="me-2 ">ID:</span> {{pageElem.id}}
   </h4>
-  <h4 class="fw-bold">
-    <span style="color:rgb(124, 12, 228)" class="me-2 ">Age:</span>  {{pageElem.age}}
+  <h4 style="font-family: regularfont;"  class="fw-bold">
+    <span style="color:#8c87ee; font-family:extraboldfont;" class="me-2 ">Age:</span>  {{pageElem.age}}
   </h4>
-  <h4 class="fw-bold">
-    <span style="color:rgb(124, 12, 228)" class="me-2 ">Email: </span> {{pageElem.email}}
+  <h4 style="font-family: regularfont;" class="fw-bold">
+    <span style="color:#8c87ee; font-family:extraboldfont;" class="me-2 ">Email: </span> {{pageElem.email}}
   </h4>
 </div>
 </div>

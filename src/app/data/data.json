@@ -1,22 +1,70 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Nermeen Fares ",
-      "age": 23,
-      "email": "nermeen@gmail.com"
+      "id": 2,
+      "name": "Rayan Albertupdated",
+      "age": 25,
+      "email": "rayan.albertUpdated@example.com"
     },
     {
-      "name": "sara",
-      "age": 25,
-      "id": 3,
-      "email": "sara.morgan@gmail.com"
+      "name": "andrea",
+      "email": "andrea66@gmail.com",
+      "age": "23",
+      "id": 3
     },
     {
       "id": 4,
-      "name": "Neveen",
-      "age": 23,
-      "email": "neven@gmail.com"
+      "name": "Emily Williams",
+      "age": 29,
+      "email": "emily.williams@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Robert Brown",
+      "age": 26,
+      "email": "robert.brown@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Jennifer Lee",
+      "age": 27,
+      "email": "jennifer.lee@example.com"
+    },
+    {
+      "id": 7,
+      "name": "William Davis",
+      "age": 20,
+      "email": "william.davis@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Elizabeth Martin",
+      "age": 25,
+      "email": "elizabeth.martin@example.com"
+    },
+    {
+      "id": 9,
+      "name": "James Anderson",
+      "age": 22,
+      "email": "james.anderson@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Rayan Albert",
+      "age": 22,
+      "email": "rayan.albert@example.com"
+    },
+    {
+      "name": "Amira Ahmed",
+      "email": "amira99@gmail.com",
+      "age": "23",
+      "id": 11
+    },
+    {
+      "name": "Nermeen Fares",
+      "email": "nermen.morgan99@gmail.com",
+      "age": "23",
+      "id": 12
     }
   ]
 }

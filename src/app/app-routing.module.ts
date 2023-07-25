@@ -17,7 +17,7 @@ const routes: Routes = [
   {path: 'students', component:  StudentsDetailsComponent},
   {path: 'students/:id', component:StudentPageComponent },
   {path: 'add', component:AddStudentComponent},
-  {path: 'update', component:UpdateUserComponent},
+  {path: 'update/:id', component:UpdateUserComponent},
 
   {path: 'add', component: AddStudentComponent },
   {path: '**', component: ErrorComponent },
